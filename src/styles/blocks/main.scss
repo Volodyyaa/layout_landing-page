@@ -1,5 +1,17 @@
 .main {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 200px;
   background-color: $main-text-color;
+
+  @include on-tablet {
+    margin-bottom: 320px;
+  }
+
+  @include on-desktop {
+    margin-bottom: 480px;
+  }
+
   &__content {
     display: grid;
     row-gap: 96px;

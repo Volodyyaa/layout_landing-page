@@ -1,14 +1,22 @@
 .footer {
-  height: 200px;
+  --footer-height: 200px;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+
+  height: var(--footer-height);
   background-image: url(../../images/footer.png);
   background-size: cover;
   background-position: center;
 
   @include on-tablet {
-    height: 320px;
+    --footer-height: 320px;
   }
 
   @include on-desktop {
-    height: 480px;
+    --footer-height: 480px;
   }
 }

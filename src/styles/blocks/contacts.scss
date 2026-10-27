@@ -1,5 +1,4 @@
 .contacts {
-
   &__link {
     color: inherit;
     text-decoration: none;
@@ -49,5 +48,9 @@
     line-height: 140%;
     color: inherit;
     text-decoration: none;
+  }
+
+  a.contacts__value:hover {
+    text-decoration: underline;
   }
 }
