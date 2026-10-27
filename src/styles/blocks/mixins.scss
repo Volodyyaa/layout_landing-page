@@ -44,7 +44,7 @@
 }
 
 @mixin page-grid {
-    --columns: 2;
+  --columns: 2;
 
   display: grid;
   column-gap: 20px;

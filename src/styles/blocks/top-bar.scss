@@ -36,14 +36,14 @@
     opacity: 0;
     transition: opacity $effectDuration;
 
-  @include on-desktop {
-    display: block;
-  }
+    @include on-desktop {
+      display: block;
+    }
 
-  .top-bar__phone:hover & {
-    opacity: 1;
+    .top-bar__phone:hover & {
+      opacity: 1;
+    }
   }
-}
 
   &__logo-link {
     display: block;
